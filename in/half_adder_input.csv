@@ -1,0 +1,8 @@
+a,b,sum,carry,comment
+0,0,  0,    0, You can write stuff to identify the condition :)
+0,1,  1,    0,
+1,0,  1,    0,
+1,1,  0,    1,
+1,0,  1,    1,
+1,1,  1,    1,
+
