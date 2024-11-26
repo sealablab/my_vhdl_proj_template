@@ -26,6 +26,8 @@ $(src):
 	@printf "$(ELABORATING)"
 	@ghdl -a $(wd) $(flags) src/$@
 	@ghdl -e $(wd) $(flags) $(NAME)
+	@printf "ghdl -a $(wd) $(flags) src/$@\n"
+	@printf "ghdl -e $(wd) $(flags) $(NAME)\n"
 	
 $(sim):
 	@printf "$(ELABORATIN8)"
